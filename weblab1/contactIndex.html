@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>Contact Us</title>
+    <meta name="description" content="Contact us Adventure Insurance" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contactStyle.css" />
+</head>
+
+<body>
+    <section class="darkbackground">
+        <header>
+            <img class="logo" src="photoshop - lab/logotopper.png" alt="Company logo" />
+            <br />
+            <img class="logobackground" src="photoshop - lab/pettingzoo.png" alt="logo background" />
+            <br />
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+
+
+    <section class="middle">
+        <div class="middlediv">
+            <h1>Contact Adventures Insurance</h1>
+
+            <form action="http://severien.com/grit/formecho.php" method="post" id="theform" name="contactUsForm" onsubmit="return valForm()" target="_blank">
+
+                <div class="box1"><label for="firstname">First Name: </label>
+                    <input type="text" id="firstname" name="first name" required="required" />
+                    <label for="lastname" class="l1">Last Name:</label>
+                    <input type="text" id="lastname" name="last name" required="required" /></div> <br />
+
+                <div class="box2"><label for="email">Email:</label>
+                    <input class="emailStyle" id="email" type="email" name="email" required="required" />
+                    <label for="phone number" class="l2">Phone #</label>
+                    <input id="phone number" class="phoneStyle" type="tel" name="phone number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="123-456-7890" /></div> <br />
+
+
+                <span class="box3"><label for="cEmail" >Contact me by email</label>
+                <input class="check1" id="cEmail1" type="checkbox" name="contactbyemail"  /></span>
+                <span class="box4"><label for="cPhone" class="l6">Contact me by phone</label>
+                <input class="check2" id="cPhone1" type="checkbox" name="contactbyphone"  /></span> <br />
+
+
+                <div class="box5"><label for="comments" class="l7">Comments:</label>
+                    <textarea rows="5" cols="50" name="comment" id="comments" form="theform" placeholder="Please leave a comment!"></textarea></div> <br />
+                <div class="formSubmit"><input type="submit" value="Submit" /></div>
+
+            </form>
+
+
+        </div>
+    </section>
+
+
+
+
+    <section class="darkbackground , below">
+        <footer>
+            <p>
+
+                <span class="copyright">&COPY;Adventures Insurance<script type="text/javascript">document.write(new Date().getFullYear());</script></span>
+                <span class="fBook"><a href="https://facebook.com"><img src="images/facebookgray.png" alt="company facebook link" /></a></span>
+            </p>
+        </footer>
+    </section>
+
+
+
+    <script src="JavaScript Functions/validation.js"></script>
+
+</body>
+
+</html>

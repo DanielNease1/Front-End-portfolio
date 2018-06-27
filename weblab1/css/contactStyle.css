@@ -1,0 +1,41 @@
+﻿h1 {
+    color: #601d15;
+}
+
+input {
+    margin-top: 15px;
+}
+
+.emailStyle {
+    margin-left: 37px;
+}
+
+.phoneStyle {
+    margin-left: 20px;
+}
+
+.box3 {
+    margin-right: 0px;
+    width: 200px;
+}
+
+.box4 {
+    margin-left: 79px;
+}
+
+.box5 {
+    margin-top: 10px;
+}
+
+textarea {
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.l1 {
+    margin-left: 50px;
+}
+
+.l2 {
+    margin-left: 50px;
+}

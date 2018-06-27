@@ -1,0 +1,117 @@
+﻿body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: Tahoma;
+    background-color: #FEFEEE;
+}
+
+image {
+    border-style: none;
+}
+
+.darkbackground {
+    background-image: url(../images/body_bg.gif);
+    background-position: center;
+}
+
+header {
+    background-image: url(../images/top_bg1.jpg);
+    background-position: top left;
+    background-repeat: no-repeat;
+    height: 475px;
+    width: 800px;
+    margin: 40px auto 40px auto;
+}
+
+.logo {
+    margin-left: 153px;
+}
+
+.logobackground {
+    margin-left: 19px;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.2em;
+    line-height: 2px;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 60px;
+}
+
+nav ul li a:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.middle {
+    background-color: #FEFEEE;
+}
+
+.middlediv {
+    background-color: #FEFEEE;
+    height: 450px;
+    width: 800px;
+    margin: 40px auto 40px auto;
+}
+
+.middlediv article {
+    width: 350px;
+    float: left;
+}
+
+.middlediv article h1 {
+    color: #601d15;
+}
+
+.article1 {
+    float: left;
+    padding-right: 40px;
+}
+
+.article2 {
+    border-left: 1px solid #601d15;
+    padding-left: 50px;
+    float: right;
+}
+
+.article2 img:first-of-type:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-image: url(../images/top_bg1.jpg);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 800px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.below {
+    color: white;
+}
+
+.fBook {
+    margin-top: 10px;
+    margin-right: 25px;
+    float: right;
+}
+
+.copyright {
+    margin-top: 10px;
+    margin-left: 25px;
+    float: left;
+}
